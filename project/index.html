@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mess/Tiffin Management</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    link
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Mess/Tiffin Service</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="order.html">Order</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+
+    <section class="meal-plans">
+        <h2>Choose Your Meal Plan</h2>
+        <div class="meal-container">
+            <div class="meal">
+                <img src="Veg.jpeg" alt="Veg Meal" height="350">
+                <h3>Veg Meal</h3>
+                <p>Healthy vegetarian meals with balanced nutrition.</p>
+                <button onclick="addToCart('Veg Meal')">Order Now</button>
+            </div>
+            <div class="meal">
+                <img src="non veg.jpeg" alt="Non-Veg Meal" height="350" >
+                <h3>Non-Veg Meal</h3>
+                <p>Delicious non-veg meals for meat lovers.</p>
+                <button onclick="addToCart('Non-Veg Meal')">Order Now</button>
+            </div>
+            <div class="meal">
+                <img src="custom.jpeg" alt="Custom Meal" height="350" >
+                <h3>Custom Meal</h3>
+                <p>Personalize your meal plan as per your choice.</p>
+                <button onclick="addToCart('Custom Meal')">Order Now</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mess/Tiffin Management</p>
+    </footer>
+
+</body>
+</html>
